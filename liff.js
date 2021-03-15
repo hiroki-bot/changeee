@@ -33,7 +33,7 @@ function sendMessages(text) {
     },{
        "type": "sticker",
        "packageId": "11537",
-       "stickerId": "52002739"
+       //"stickerId": "52002739"
    }]).then(function () {
         liff.closeWindow();
     }).catch(function (error) {
