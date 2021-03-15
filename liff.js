@@ -31,8 +31,8 @@ function sendMessages(text) {
         'type': 'text',
         'text': text
     },{
-       "type": "sticker",
-       "packageId": "11537",
+       //"type": "sticker",
+       //"packageId": "11537",
        //"stickerId": "52002739"
    }]).then(function () {
         liff.closeWindow();
