@@ -26,9 +26,6 @@ function sendText(text) {
 function sendMessages(text) {
     liff.sendMessages([{
         'type': 'text',
-        'text': "以下の内容で出勤状況修正依頼を受付けました。"
-    },{
-        'type': 'text',
         'text': text
     }]).then(function () {
         liff.closeWindow();
