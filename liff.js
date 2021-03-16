@@ -30,11 +30,7 @@ function sendMessages(text) {
     },{
         'type': 'text',
         'text': text
-    },{
-       "type": "sticker",
-       "packageId": "11537",
-       "stickerId": "52002739"
-   }]).then(function () {
+    }]).then(function () {
         liff.closeWindow();
     }).catch(function (error) {
         window.alert('Failed to send message ' + error);
